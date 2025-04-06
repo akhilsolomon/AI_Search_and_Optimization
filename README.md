@@ -57,14 +57,14 @@ cd AI_Search_and_Optimization/assignment2
 
 ### 2. Run Hill Climbing
 ```bash
-python hill_climbing.py --runs 3 --timeout 10 --tsp berlin52.tsp
+python3 hill_climbing.py --problem berlin52.tsp --runs 5 --timeout 60
 ```
 - 🎯 Generates `gifs/hc/` with visualizations
 - 🧾 Results saved to `results/hc_results.csv`
 
 ### 3. Run Simulated Annealing
 ```bash
-python simulated_annealing.py --runs 3 --timeout 10 --tsp berlin52.tsp
+python3 simulated_annealing.py --problem berlin52.tsp --runs 5 --timeout 60
 ```
 - 🎯 Generates `gifs/sa/` with visualizations
 - 🧾 Results saved to `results/sa_results.csv`
