@@ -9,7 +9,7 @@ It visualizes each optimization run as GIFs, records performance results in CSV 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 assignment2/
@@ -37,7 +37,7 @@ assignment2/
 
 ---
 
-## 🧰 Requirements
+## Requirements
 
 Make sure you have Python 3.10+ installed, then install the required libraries:
 
@@ -47,7 +47,7 @@ pip install numpy matplotlib imageio
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone the repository
 ```bash
@@ -59,25 +59,25 @@ cd AI_Search_and_Optimization/assignment2
 ```bash
 python3 hill_climbing.py --problem berlin52.tsp --runs 5 --timeout 60
 ```
-- 🎯 Generates `gifs/hc/` with visualizations
-- 🧾 Results saved to `results/hc_results.csv`
+-  Generates `gifs/hc/` with visualizations
+-  Results saved to `results/hc_results.csv`
 
 ### 3. Run Simulated Annealing
 ```bash
 python3 simulated_annealing.py --problem berlin52.tsp --runs 5 --timeout 60
 ```
-- 🎯 Generates `gifs/sa/` with visualizations
-- 🧾 Results saved to `results/sa_results.csv`
+-  Generates `gifs/sa/` with visualizations
+-  Results saved to `results/sa_results.csv`
 
 ### 4. Plot Comparison Graph
 ```bash
 python plot_results.py
 ```
-- 📊 Saves plot to `results/plots/cost_vs_time.png`
+-  Saves plot to `results/plots/cost_vs_time.png`
 
 ---
 
-## 📈 Output Summary
+##  Output Summary
 
 - **GIFs**: Visualizes how the tour evolves for each algorithm.
 - **CSV Files**: Record of costs and times for each run.
@@ -85,7 +85,7 @@ python plot_results.py
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - You can adjust number of runs and timeout using `--runs` and `--timeout` arguments.
 - Make sure `berlin52.tsp` (or your own `.tsp` file) is placed in the working directory.
